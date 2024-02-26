@@ -1,43 +1,43 @@
 .friendList {
-    margin: 0;
-    background-color: rgb(66, 222, 222);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    color: rgb(246, 10, 10);
-  }
-  
-  .status {
-    display: flex;
-    background-color: white;
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-  }
-  
-  .online {
-    background-color: rgb(210, 72, 185);
-  }
-  
-  .offline {
-    background-color: red;
-  }
-  
-  .item {
-    display: flex;
-    width: 150px;
-    gap: 10px;
-    border: 1px solid black;
-    box-shadow: 2px 5px rgb(212, 36, 177);
-    border-radius: 15px;
-    padding: 30px;
-  }
-  
-  .item:hover,
-  .item:focus {
-    cursor: pointer;
-    scale: 1.1;
-    transition: 0.2s linear;
-  }
+  margin: 0;
+  background-color: rgb(124, 217, 220);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: rgb(31, 55, 97);
+}
+
+.status {
+  display: flex;
+  background-color: rgb(242, 242, 242);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.online {
+  background-color: rgb(77, 255, 0);
+}
+
+.offline {
+  background-color: rgb(247, 0, 0);
+}
+
+.item {
+  display: flex;
+  width: 200px;
+  gap: 20px;
+  border: 2px solid black;
+  box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.item:hover,
+.item:focus {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
